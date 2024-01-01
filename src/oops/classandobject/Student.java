@@ -6,6 +6,11 @@ public class Student {
     String studentName;
     String studentCity;
 
+    //non parameterised constructor
+    Student(){
+        System.out.println("non parameterised constructor");
+    }
+
     //Behaviour: member methods : (functions)
     public void study(){
         System.out.println(id + " is studying.");
